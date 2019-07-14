@@ -11,7 +11,8 @@
 		53B5BAB022DBEA2A0001040C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53B5BAAE22DBEA2A0001040C /* Main.storyboard */; };
 		53B5BAB222DBEA2B0001040C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53B5BAB122DBEA2B0001040C /* Assets.xcassets */; };
 		53B5BAB522DBEA2B0001040C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53B5BAB322DBEA2B0001040C /* LaunchScreen.storyboard */; };
-		53B5BAC222DBEACE0001040C /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B5BAC122DBEACE0001040C /* File.swift */; };
+		53B5BAC222DBEACE0001040C /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B5BAC122DBEACE0001040C /* Contact.swift */; };
+		53B5BAC422DBF2CF0001040C /* ContactController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B5BAC322DBF2CF0001040C /* ContactController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,7 +22,8 @@
 		53B5BAB122DBEA2B0001040C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		53B5BAB422DBEA2B0001040C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		53B5BAB622DBEA2B0001040C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		53B5BAC122DBEACE0001040C /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		53B5BAC122DBEACE0001040C /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		53B5BAC322DBF2CF0001040C /* ContactController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 		53B5BABF22DBEA740001040C /* Model Controller */ = {
 			isa = PBXGroup;
 			children = (
+				53B5BAC322DBF2CF0001040C /* ContactController.swift */,
 			);
 			path = "Model Controller";
 			sourceTree = "<group>";
@@ -99,7 +102,7 @@
 		53B5BAC022DBEA790001040C /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				53B5BAC122DBEACE0001040C /* File.swift */,
+				53B5BAC122DBEACE0001040C /* Contact.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -175,8 +178,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53B5BAC422DBF2CF0001040C /* ContactController.swift in Sources */,
 				53B5BAAB22DBEA2A0001040C /* AppDelegate.swift in Sources */,
-				53B5BAC222DBEACE0001040C /* File.swift in Sources */,
+				53B5BAC222DBEACE0001040C /* Contact.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,5 +1,5 @@
 //
-//  File.swift
+//  Contact.swift
 //  ContactList2
 //
 //  Created by Madison Kaori Shino on 7/14/19.
