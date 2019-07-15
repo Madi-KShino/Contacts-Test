@@ -11,11 +11,7 @@ import UIKit
 class ContactDetailViewController: UIViewController {
 
     //Landing Pad
-    var contact: Contact? {
-        didSet {
-            updateViews()
-        }
-    }
+    var contact: Contact?
     
     //Outlets
     @IBOutlet weak var firstNameTextField: UITextField!
@@ -26,6 +22,8 @@ class ContactDetailViewController: UIViewController {
     //Lifecycle Functions
     override func viewDidLoad() {
         super.viewDidLoad()
+        updateViews()
+        self.title = contact?.firstName
     }
     
     //Helper Functions

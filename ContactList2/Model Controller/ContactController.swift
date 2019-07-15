@@ -18,7 +18,7 @@ class ContactController {
     var contacts: [Contact] = []
     
     //Database
-    let privateDatabase = CKContainer.default().privateCloudDatabase
+    let privateDatabase = CKContainer.default().publicCloudDatabase
     
     //Create Contact
     func createContact(firstName: String, lastName: String, phoneNumber: String, email: String, completion: @escaping (Contact?) -> Void) {

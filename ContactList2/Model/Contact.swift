@@ -42,10 +42,10 @@ class Contact {
 extension CKRecord {
     convenience init(contact: Contact) {
         self.init(recordType: ContactConstants.contactTypeKey, recordID: contact.cloudKitRecordID)
-        self.setValue(ContactConstants.firstNameKey, forKey: contact.firstName)
-        self.setValue(ContactConstants.lastNameKey, forKey: contact.lastName)
-        self.setValue(ContactConstants.phoneNumberKey, forKey: contact.phoneNumber)
-        self.setValue(ContactConstants.emailKey, forKey: contact.email)
+        self.setValue(contact.firstName, forKey: ContactConstants.firstNameKey)
+        self.setValue(contact.lastName, forKey: ContactConstants.lastNameKey)
+        self.setValue(contact.phoneNumber, forKey: ContactConstants.phoneNumberKey)
+        self.setValue(contact.email, forKey: ContactConstants.emailKey)
     }
 }
 

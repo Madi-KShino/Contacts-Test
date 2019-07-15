@@ -16,6 +16,12 @@ class ContactListTableViewController: UITableViewController {
         refreshContacts()
     }
     
+    //Table View Data
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        tableView.reloadData()
+    }
+    
     //Helper Functions
     func refreshContacts() {
         ContactController.sharedInstance.retrieveContactsFromCloud { (_) in
